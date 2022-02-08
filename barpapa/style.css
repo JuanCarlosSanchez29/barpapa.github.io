@@ -1,0 +1,504 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background: #2b3031;
+}
+
+.logo {
+    display: none;
+}
+
+
+/* NAV BAR */
+
+#menuToggle input {
+    display: none;
+}
+
+.nav-ul {
+    justify-content: center;
+    display: flex;
+}
+
+.nav-a {
+    margin: 0px 2px;
+    padding: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    text-decoration: none;
+}
+
+.nav-logo {
+    width: 150px;
+}
+
+.nav-a:hover {
+    border-bottom: 2px solid white;
+    background: rgba(83, 83, 83, 0.664);
+}
+
+.btn_menu {
+    margin-right: 30px;
+    font-size: 40px;
+    /* color: rgb(255, 0, 0); */
+    color: rgb(44 0 0);
+    cursor: pointer;
+    display: none;
+}
+
+
+/* IMAGEN PRINCIPAL */
+
+.pic-1-div img {
+    width: 100%;
+    height: 91%;
+    object-fit: cover;
+    margin-top: 0px;
+}
+
+.span-1 {
+    padding: 20px;
+}
+
+
+/* RESERVAS */
+
+.contenedor-titulo{
+    padding: 0;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-titulo h1{
+    padding: 0px 15px;
+    border-bottom: 5px solid rgb(75, 0, 0);
+    color: white;
+    font-size: 50px;
+}
+
+.contenedor-reservas {
+    border-bottom: 5px solid rgb(255, 242, 214);
+    padding: 30px;
+    margin-bottom: 40px;
+    background-color: #1d2021
+}
+
+.contenedor-reservas article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contenedor-hs {
+    color: white;
+    text-align: center;
+}
+
+.contenedor-hs h1 {
+    font-size: 50px;
+    margin: 25px;
+}
+
+.contenedor-hs h2 {
+    font-size: 30px;
+    margin: 25px 50px;
+}
+
+.btn-reserva {
+    cursor: pointer;
+    transition: all 300ms;
+    border: 3px solid rgb(250, 243, 215);
+    background-color: transparent;
+    padding: 25px 40px;
+    margin: 20px;
+}
+
+.btn-reserva-a {
+    color: rgb(212, 208, 208);
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn-reserva:hover {
+    box-shadow: 0px 0px 25px 0px black;
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+
+.btn-reserva:hover a {
+    color: rgb(194, 29, 0);
+}
+
+.img-article-reserva {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid black;
+    box-shadow: 0px 0px 20px 0px black;
+}
+
+
+/* FOLLOW US REDES SOCIALES*/
+
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.contenedor-grid article {
+    color: rgb(255, 253, 246);
+    text-align: center;
+    margin: auto;
+}
+
+.contenedor-article {
+    transition: all 300ms;
+    box-shadow: 0px 0px 20px 0px black;
+    margin: 20px 50px;
+}
+
+.contenedor-article:hover {
+    transform: scale(1.03);
+    transition: all 300ms;
+}
+
+.contenedor-article article {
+    margin: 30px 50px;
+}
+
+.contenedor-article h1 {
+    margin: 20px;
+}
+
+.contenedor-article h2 {
+    font-size: 20px;
+}
+
+.insta-logo {
+    width: 200px;
+}
+
+.twitter-logo {
+    width: 200px;
+}
+
+.face-logo {
+    width: 112.5px;
+}
+
+.btn-redes-a {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.btn-redes {
+    cursor: pointer;
+    background: rgb(63, 63, 63);
+    transition: all 300ms;
+    margin: 25px;
+    border: 2px solid rgb(255, 246, 216);
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(252, 255, 236);
+}
+
+.btn-redes:hover {
+    border: 2px solid rgb(0, 0, 0);
+    transition: all 300ms;
+    transform: scale(1.2);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px 0px black;
+}
+
+.btn-redes:hover a {
+    color: black;
+}
+
+
+/* FOTOGALERIA */
+
+.hr-fotogaleria {
+    border-radius: 50px;
+    border: 3px solid #b72027;
+    margin: 20px 55px;
+}
+
+.contenedor-fotogaleria {
+    margin: 25px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.contenedor-imagenes-fotogaleria {
+    margin: 10px;
+}
+
+.contenedor-imagenes-fotogaleria img {
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn-vercarta {
+    margin: auto;
+    transition: all 300ms;
+    background-color: transparent;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 25px;
+}
+
+.btn-vercarta-a {
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-vercarta:hover {
+    background-color: rgb(29, 29, 29);
+    box-shadow: 0px 0px 20px 0px black;
+    transition: all 300ms;
+    transform: scale(1.05);
+}
+
+.contenedor-boton {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+/* BOTON DE IR HACIA ARRIBA */
+
+#icon-up {
+    transition: all 300ms;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    border: solid 2px rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: scale(0);
+}
+
+#icon-up:hover {
+    border: solid 2px rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: all 300ms;
+    transform: scale(1.2);
+}
+
+
+/* FOOTER */
+
+.contenedor-footer {
+    margin: auto;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    border-top: 7px solid rgb(187, 186, 186);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.contenedor-footer-about {
+    margin: 70px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.contenedor-footer-about h2 {
+    margin: 20px;
+}
+
+.btn-about {
+    border: 2px solid black;
+    background-color: transparent;
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+.btn-about a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.btn-about:hover {
+    transform: scale(1.02);
+    background-color: rgba(230, 230, 230, 0.815);
+    box-shadow: 0px 0px 20px 0px black;
+}
+
+.contenedor-footer-media {
+    text-align: right;
+    justify-content: right;
+    margin: 50px;
+}
+
+.contenedor-footer-media li {
+    list-style: none;
+    margin: 10px;
+}
+
+.contenedor-footer-media a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.contenedor-footer-mapa iframe {
+    border: 1px solid black;
+    margin: 20px;
+    width: 90%;
+    height: 90%;
+}
+
+@media only screen and (max-width: 1400px) {
+    .contenedor-footer-about {
+        margin: 20px;
+    }
+    .contenedor-footer-media {
+        margin: 20px;
+    }
+    .contenedor-footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contenedor-footer-mapa iframe {
+        width: 90%;
+        height: 500px;
+    }
+    .span-1 {
+        display: none;
+    }
+    .art-1-img {
+        margin-top: 10px;
+        width: 500px;
+    }
+    .contenedor-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .art-1-img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .nav-div {
+        position: fixed;
+    }
+    .logo {
+        top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        transform: translateY(-20px);
+        position: relative;
+    }
+    .nav-ul {
+        margin: 0px;
+    }
+    .nav-a {
+        margin: 0px;
+        border-bottom: 2px solid white;
+        display: block;
+    }
+    .nav-a:hover {
+        background: rgba(112, 112, 112, 0.836);
+        color: #b72027;
+    }
+    /* NAVBAR */
+    .btn_menu {
+        left: 20px;
+        top: 20px;
+        position: absolute;
+        display: inline-flex;
+    }
+    .nav-ul {
+        position: fixed;
+        width: 100%;
+        height: calc(100%);
+        background: #2b3031;
+        top: -1000vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+        border-bottom: 3px solid white;
+    }
+    .nav-ul.show {
+        position: fixed;
+        width: 100vw;
+        height: calc(100% - 65px);
+        background: #2b3031;
+        top: -10vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+        border-bottom: 3px solid white;
+    }
+    .contenedor-reservas article {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contenedor-hs h1 {
+        font-size: 40px;
+        margin: 25px;
+    }
+    .contenedor-hs h2 {
+        font-size: 25px;
+        margin: 25px 10px;
+    }
+    .img-article-reserva {
+        height: 90%;
+    }
+    .nav-logo {
+        display: none;
+    }
+    .art-1 {
+        display: block;
+    }
+    .art-1-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+    }
+    .art-1 div {
+        text-align: center;
+    }
+    .contenedor-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contenedor-footer-about {
+        margin: 20px;
+    }
+    .contenedor-footer-media {
+        margin: 20px;
+    }
+    .contenedor-fotogaleria {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contenedor-footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contenedor-footer-mapa iframe {
+        width: 90%;
+        height: 500px;
+    }
+}
